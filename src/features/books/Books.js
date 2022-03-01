@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 
 function Books() {
   const books = useSelector((state) => state.books);
+  console.log("🚀 ~ file: Books.js ~ line 6 ~ Books ~ books", books)
 
   return (
     <div>
